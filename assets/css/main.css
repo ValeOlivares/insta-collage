@@ -1,0 +1,78 @@
+body{
+   background: linear-gradient(to bottom left, #5fb68b -1%, #c07b4f 100%);
+   background-repeat: no-repeat;
+   height: 2000px;
+}
+
+.intro {
+  color: white;
+   text-align: center;
+}
+
+.idiom{
+  padding: 2em;
+  font-size: 2em;
+}
+
+.igLogo {
+  width: 30em;
+  padding-top: 5em;
+}
+
+.user{
+  margin-top: 11em;
+  border-radius: 1em;
+  opacity: 0.3;
+  width: 50em;
+  height: 5em;
+}
+.pass{
+  margin-top: 3em;
+  border-radius: 1em;
+  opacity: 0.3;
+  width: 50em;
+  height: 5em;
+}
+.login{
+  margin-top: 3em;
+  background-color: Transparent;
+  border: 0.05em solid #fff;
+  font-size: 2em;
+  width: 25em;
+  height: 3em;
+  border-radius: 0.5em;
+}
+
+.logHelp{
+  margin-top: 2em;
+  font-size: 1.5em;
+}
+.or {
+  margin-top: 3em;
+  font-size: 1.5em;
+}
+
+.or:before,
+.or:after {
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  height: 0.1em;
+  position: relative;
+  vertical-align: middle;
+  width: 15em;
+}
+
+.or:before {
+ right: 0.5em;
+ margin-left: -50%;
+}
+.or:after {
+ left: 0.5em;
+ margin-right: -50%;
+}
+
+.facebook{
+  margin-top: 3em;
+  font-size: 2em;
+}
