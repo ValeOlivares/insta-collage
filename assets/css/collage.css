@@ -4,16 +4,18 @@
 }
 
 #emptyBox {
-	width: 95vw;
-	height: 50vh;
-	border: 1px solid red;
-}
+	min-height: 50vh;
+	background-color: #000000;}
 
 .img {
 	width: 30vw;
 	margin: 0;
+	z-index: 1;
+
 }
 
 .photo {
-	color: #fff;
+	color: #486C86;
+	font-size: 2.5vw;
+
 }
