@@ -1,7 +1,8 @@
 body{
    background: linear-gradient(to bottom left, #5fb68b -1%, #c07b4f 100%);
    background-repeat: no-repeat;
-   height: 2000px;
+   height: 100vh;
+   margin: 0 auto;
 }
 
 .intro {
@@ -10,46 +11,49 @@ body{
 }
 
 .idiom{
-  padding: 2em;
-  font-size: 2em;
+  padding: 5vh;
+  font-size: 4vw;
 }
 
 .igLogo {
-  width: 30em;
-  padding-top: 5em;
+  padding: 2vh;
 }
 
-.user{
-  margin-top: 11em;
-  border-radius: 1em;
+.user, .pass{
+  margin-top: 3vh;
+  padding: 1vw;
+  border-radius: 2vw;
   opacity: 0.3;
-  width: 50em;
-  height: 5em;
+  width: 80vw;
+  height: 8vh;
+  color: #000;
 }
 .pass{
-  margin-top: 3em;
-  border-radius: 1em;
-  opacity: 0.3;
-  width: 50em;
-  height: 5em;
+  margin-top: 2vh;
 }
 .login{
-  margin-top: 3em;
+  margin-top: 3vh;
   background-color: Transparent;
   border: 0.05em solid #fff;
-  font-size: 2em;
-  width: 25em;
-  height: 3em;
+  height: 8vh;
   border-radius: 0.5em;
+  font-size: 3vw;
+  width: 80vw;
+  
 }
 
 .logHelp{
-  margin-top: 2em;
-  font-size: 1.5em;
+  margin-top: 3vh;
+  font-size: 3vw;
+  opacity: 0.4;
+}
+
+.bold{
+  font-weight: bold;
 }
 .or {
-  margin-top: 3em;
-  font-size: 1.5em;
+  margin-top: 1vh;
+  font-size: 2vh;
 }
 
 .or:before,
@@ -57,10 +61,10 @@ body{
   background-color: #fff;
   content: "";
   display: inline-block;
-  height: 0.1em;
+  height: 0.1vh;
   position: relative;
   vertical-align: middle;
-  width: 15em;
+  width: 40vw;
 }
 
 .or:before {
@@ -73,6 +77,15 @@ body{
 }
 
 .facebook{
-  margin-top: 3em;
-  font-size: 2em;
+  margin-top: 1vh;
+  font-size: 4vw;
 }
+
+.register {
+  margin-top: 2vh;
+  padding: 1vh;
+  font-size: 2.5vh;
+  border-top: 0.1em solid #fff;
+  opacity: 0.6;
+}
+

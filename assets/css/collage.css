@@ -1,0 +1,19 @@
+*{
+   background:  #000000;
+   text-align: center;
+}
+
+#emptyBox {
+	width: 95vw;
+	height: 50vh;
+	border: 1px solid red;
+}
+
+.img {
+	width: 30vw;
+	margin: 0;
+}
+
+.photo {
+	color: #fff;
+}

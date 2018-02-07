@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>collage</title>
+	<link rel="stylesheet" href="assets/css/collage.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+	<section class="collage container-fluid">
+		<div id="emptyBox" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	</section>
+	<section>
+		<div class="row photo">	
+			<p>Photo Booth</p>
+
+		</div>
+	</section>
+	<section class="images container-fluid">
+		<div class="row">
+			<img id="photo1" class="img" src="assets/images/hedgie.jpg" draggable="true" ondragstart="drag(event)">
+			<img id="photo2" class="img" src="assets/images/hedgie2.jpg" draggable="true" ondragstart="drag(event)">
+			<img id="photo3" class="img" src="assets/images/hedgie3.jpg" draggable="true" ondragstart="drag(event)">
+		</div>
+		<div class="row">
+			<img id="photo4" class="img" src="assets/images/hedgie4.jpg" draggable="true" ondragstart="drag(event)">
+			<img id="photo5" class="img" src="assets/images/hedgie5.jpg" draggable="true" ondragstart="drag(event)">
+			<img id="photo6" class="img" src="assets/images/hedgie6.jpg" draggable="true" ondragstart="drag(event)">
+		</div>
+	</section>
+	
+	
+
+
+
+
+	<script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	<script
+  src="http://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script src="assets/js/app.js"></script>
+
+
+</body>
+</html>
